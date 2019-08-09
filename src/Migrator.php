@@ -13,7 +13,6 @@ class Migrator extends LaravelMigrator
     public function resolve($file)
     {
         $class = str_replace('.php', '', $file);
-        dump($class);
         return new $class;
     }
 }
