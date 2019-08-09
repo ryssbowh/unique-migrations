@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "illuminate/database": "^5.8",
-        "illuminate/filesystem": "^5.8"
+        "illuminate/database": "^5.7",
+        "illuminate/filesystem": "^5.7"
     },
     "require-dev": {
     },
